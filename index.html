@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Michael Adesina - Front-End Developer</title>
+        <link rel="shortcut icon" href="assets/fav-icon.png" type="image/x-icon">
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<nav class="container">
+				<ul class="nav-links">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li>
+						<a
+							href="https://docs.google.com/document/d/1ROAd00XvxEQdKTNykICvvhjiBkkM7TgC/edit?usp=sharing&ouid=112001100567283666479&rtpof=true&sd=true"
+							>Resume</a
+						>
+					</li>
+					<li>
+						<a href="https://michael-adesina-portfolio.vercel.app/"
+							>Portfolio</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="container">
+			<section id="home" class="hero">
+				<h1>Michael Adesina</h1>
+				<h2>From Equations to Code: Mathematician & Frontend Developer</h2>
+				<img
+					src="assets/profile.jpg"
+					alt="Michael Adesina"
+					class="profile-img"
+				/>
+				<div class="tech-stack">
+					<span>HTML</span> || <span>CSS</span> || <span>Bootstrap</span> ||
+					<span>Tailwind</span> || <span>JavaScript</span> ||
+					<span>TypeScript</span> || <span>C</span> || <span>React</span> ||
+					<span>Next</span>
+				</div>
+			</section>
+
+			<section id="projects">
+				<h2>Featured Projects</h2>
+				<div class="projects-grid">
+					<!--  I go run project cards for JS, e gat be dynamic -->
+				</div>
+			</section>
+
+			<p id="hidden">
+				NB: I don't have pictures that I can use so I downloaded a few from
+				pexels, this is just a proof of concept
+			</p>
+			<section class="gallery">
+				<img
+					src="assets/working-with-team-pexels-fauxels-3183197.jpg"
+					alt="Working with team"
+				/>
+				<img
+					src="assets/coding-session-pexels-olia-danilevich-4974920.jpg"
+					alt="Coding session"
+				/>
+				<img
+					src="assets/project-presentation-pexels-fauxels-3183153.jpg"
+					alt="Project presentation"
+				/>
+				<img src="assets/tech-meetup-pexels-growthgal-3719037.jpg"Tech meetup"
+				/>
+				<img
+					src="assets/development-workshop-pexels-rdne-7648042.jpg"
+					alt="Development workshop"
+				/>
+			</section>
+
+			<section id="contact">
+				<h2>Get in Touch</h2>
+				<form class="contact-form" id="contactForm">
+					<div class="form-group">
+						<input type="text" placeholder="Name" required />
+					</div>
+					<div class="form-group">
+						<input type="email" placeholder="Email" required />
+					</div>
+					<div class="form-group">
+						<textarea placeholder="Message" rows="5" required></textarea>
+					</div>
+					<button type="submit">Send Message</button>
+				</form>
+			</section>
+		</main>
+
+		<footer>
+			<p>Copyright © <span id="current-year"></span> Michael Adesina</p>
+		</footer>
+	</body>
+</html>
